@@ -100,9 +100,7 @@ const Footer = () => {
             <h3 className="text-gray-800 font-semibold mb-4">Get In Touch</h3>
             <p className="text-gray-600">Head Office</p>
             <p className="text-gray-600">A-01, Yasoda Garden Bagnugaliya, Bhopal - 462043</p>
-            <p className="text-gray-600">Corporate Office</p>
-            <p className="text-gray-600">ITI, Govindpura, Bhopal - 462043</p>
-            <p className="text-gray-600 mt-2">Care@trackalways.in</p>
+            <p className="text-gray-600 mt-2">shivamtaneja@trackalways.in</p>
             <p className="text-gray-600">+91 9131950173</p>
           </div>
         </div>
@@ -168,20 +166,6 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Centered Code Crumble section */}
-      <div className="text-center my-6">
-        <a 
-          href="https://codecrumble.in" 
-          target="_blank" 
-          rel="noopener noreferrer" 
-          className="inline-block text-gray-600 hover:text-green-600 transition-all duration-300"
-        >
-          <span className="text-base font-semibold">Powered by</span>
-          <br />
-          <span className="text-xl font-bold code-crumble-text">Code Crumble</span>
-        </a>
-      </div>
-
       {/* Line above the copyright */}
       <div className="mt-4 border-t border-gray-300"></div>
 
@@ -211,28 +195,6 @@ const Footer = () => {
           </HashLink>, Inc. All rights reserved.
         </div>
       </div>
-
-      {/* Add CSS for animation */}
-      <style jsx>{`
-        .code-crumble-text {
-          display: inline-block;
-          position: relative;
-          animation: pulse 2s infinite;
-        }
-        
-        @keyframes pulse {
-          0% {
-            transform: scale(1);
-          }
-          50% {
-            transform: scale(1.05);
-            color: #10B981;
-          }
-          100% {
-            transform: scale(1);
-          }
-        }
-      `}</style>
     </footer>
   );
 };

@@ -103,7 +103,7 @@ const TermsConditions = () => {
           If you have any questions about these terms, please contact us at:
         </p>
         <p className="mb-4">
-          Email: care@trackalways.in<br />
+          Email: shivamtaneja@trackalways.in<br />
           Phone: +91 9131950173<br />
           Head Office: A-01, Yasoda Garden Bagnugaliya, Bhopal - 462043<br />
           Corporate Office: ITI, Govindpura, Bhopal - 462043
@@ -113,4 +113,4 @@ const TermsConditions = () => {
   );
 };
 
-export default TermsConditions; 
+export default TermsConditions;

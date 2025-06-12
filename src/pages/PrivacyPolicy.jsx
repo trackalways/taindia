@@ -109,7 +109,7 @@ const PrivacyPolicy = () => {
         <h2 className="text-xl font-semibold mt-6 mb-3">6. Your Rights</h2>
         <p className="mb-4">
           You have the right to access, correct, update, or request deletion of your personal information.
-          You can contact us at care@trackalways.in to exercise these rights.
+          You can contact us at shivamtaneja@trackalways.in to exercise these rights.
         </p>
         <p className="mb-4">
           Depending on your location, you may have additional rights, including:
@@ -148,14 +148,13 @@ const PrivacyPolicy = () => {
           If you have any questions about this privacy policy or our data practices, please contact us at:
         </p>
         <p className="mb-4">
-          Email: care@trackalways.in<br />
+          Email: shivamtaneja@trackalways.in<br />
           Phone: +91 9131950173<br />
           Head Office: A-01, Yasoda Garden Bagnugaliya, Bhopal - 462043<br />
-          Corporate Office: ITI, Govindpura, Bhopal - 462043
         </p>
       </div>
     </div>
   );
 };
 
-export default PrivacyPolicy; 
+export default PrivacyPolicy;
