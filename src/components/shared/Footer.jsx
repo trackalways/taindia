@@ -98,10 +98,10 @@ const Footer = () => {
           {/* Get in Touch */}
           <div className="text-center md:text-start lg:text-left">
             <h3 className="text-gray-800 font-semibold mb-4">Get In Touch</h3>
-            <p className="text-gray-600">Head Office</p>
-            <p className="text-gray-600">A-01, Yasoda Garden Bagnugaliya, Bhopal - 462043</p>
-            <p className="text-gray-600 mt-2">shivamtaneja@trackalways.in</p>
-            <p className="text-gray-600">+91 9131950173</p>
+            <p className="text-gray-600">Address: A-1, Yashoda Garden Bagmugaliya, Bhopal - 462043</p>
+            <p className="text-gray-600 mt-2">Email: shivamtaneja@trackalways.in, shivangijain.133@gmail.com</p>
+            <p className="text-gray-600">Support Email: support@trackalways.in</p>
+            <p className="text-gray-600">Phone: +91 9131950173</p>
           </div>
         </div>
 

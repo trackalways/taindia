@@ -150,7 +150,6 @@ const Navbar = () => {
               </NavLink>
             </li>
 
-
             {/* Discover Dropdown */}
             <li className="relative">
               <button
@@ -278,6 +277,21 @@ const Navbar = () => {
                   </div>
                 </div>
               )}
+            </li>
+            
+            <li>
+              <NavLink
+                to="/contact-us"
+                onClick={() => {
+                  closeDropdowns();
+                  window.scrollTo(0, 0);
+                }}
+                className={({ isActive }) =>
+                  isActive ? "text-green-600 border-b-2 border-green-600" : "text-gray-600 hover:text-green-600"
+                }
+              >
+                Contact Us
+              </NavLink>
             </li>
           </ul>
         </div>
