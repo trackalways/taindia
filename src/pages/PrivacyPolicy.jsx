@@ -150,6 +150,7 @@ const PrivacyPolicy = () => {
         <p className="mb-4">
           Email: shivamtaneja@trackalways.in, shivangijain.133@gmail.com<br />
           Support Email: support@trackalways.in<br />
+          Phone: +91 9131950173<br />
           Address: A-1, Yashoda Garden Bagmugaliya, Bhopal - 462043
         </p>
       </div>
