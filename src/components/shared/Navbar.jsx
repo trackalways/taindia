@@ -441,6 +441,15 @@ const Navbar = () => {
                 </div>
               )}
             </li>
+            <li className="md:hidden">
+              <NavLink 
+                to="/contact-us" 
+                onClick={() => { closeMenu(); window.scrollTo(0, 0); }} 
+                className="block py-2 text-gray-800 hover:text-green-600"
+              >
+                Contact Us
+              </NavLink>
+            </li>
             <li>
               <NavLink to="/contact-us" onClick={() => { closeMenu(); window.scrollTo(0, 0); }} className="text-gray-800 hover:text-green-600">
                 <button className="bg-[#BEF269] hover:bg-[#439600] hover:text-white text-md text-black rounded-2xl py-2 px-4">
